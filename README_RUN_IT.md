@@ -1,10 +1,6 @@
 # Define the path to the README file
 readme_file_path = os.path.join(extraction_dir, 'prometheus-grafana', 'README_RUN_IT.md')
 
-# Content of the README file
-readme_content = """
-# README_RUN_IT.md
-
 ## Introduction
 
 This project contains configurations for running Prometheus, Grafana, Node Exporter, and the ELK stack (Elasticsearch, Logstash, Kibana) using Docker Compose. This guide will help you set up and run all the services locally.
